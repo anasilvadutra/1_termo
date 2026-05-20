@@ -64,3 +64,76 @@
 #     print("Login realizado com sucesso")
 
 # Melhorado
+# usuario = ("aluno123")
+# if usuario == "aluno123":
+#     print("Login do aluno realizado com sucesso! ")
+
+# 5. Atribuição vs. Comparação
+# Errada
+# clima = "ensolarado"
+# if clima = "chuvoso":
+# print("Leve um guarda-chuva!")
+
+# Corrigido
+# clima = "Ensolarado"
+# if clima == "chuvoso":
+#     print("Leve um guarda-guva!")
+
+# Melhorado
+# clima = input("O clima de hoje esta chuvoso? sim/nao  ")
+# if clima == "sim":
+#     print("Leve um guarda-chuva!")
+# elif clima == "nao":
+#     print("Não precisa levar guarda-chuva ")
+# else:
+#     print("Erro na temperatura")
+
+# 6. Misturando Alhos com Bugalhos
+# Errada
+# pontos = 50
+# print("Parabéns! Você fez " + pontos + " pontos.")
+
+# Corrigido
+# pontos = 50
+# print(f" Parabens! Você fez {pontos} pontos.")
+
+# Melhorada
+# pontos = int(input("Quantos pontos você fez?"))
+# if pontos <= 40:
+#     print("Você ficou abaixo da pontuação adeguada")
+# elif pontos >= 50:
+#     print("Você ficou com boa pontuação, continue assim!")
+# else:
+#     print("Erro na pontuação!")
+
+# 7. A Ordem dos Fatores
+# Errado
+# O sistema deve dar "Excelente" para notas 9 ou 10.
+# nota = 9.5
+# if nota >= 7:
+# print("Aprovado")
+# elif nota >= 9:
+# print("Excelente!")
+
+# Corrigido
+# nota = 9.5
+# if nota >= 9:
+#     print("Excelente!")
+# elif nota >= 7:
+#     print("Aprovado") 
+
+# Melhorado
+# int(input("Qual foi sua nota de 0 a 10? "))
+# nota = 9.5
+# if nota >= 9:
+#     print("Excelente!")
+# elif nota <= 5 :
+#     print("Aprovado")
+# else:
+#     ("Erro nas notas")
+
+# 8. O Contador de 1 a 5
+# Errado
+# for i in range(5):
+# print(i)
+
